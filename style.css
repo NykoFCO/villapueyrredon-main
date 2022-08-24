@@ -158,12 +158,16 @@ span {
 }
 
 .card__title {
-    padding: 20px;
-}
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1em;
+    }
 
 .card__projects-links {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 1em;
 }
 
 .card__projects-links a {
@@ -171,3 +175,24 @@ span {
     text-decoration: none;
 }
 
+.card__projects-links i {
+    font-size: 1.5em;
+}
+
+.card .projects-details {
+    margin: 0 auto;
+    margin: 1em;
+    width: 70%;
+}
+
+.card .projects-details a {
+    text-decoration: none;
+    color:  #2a315b;
+}
+
+.proyect-details-content {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 1em;
+}
