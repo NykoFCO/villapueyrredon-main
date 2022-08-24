@@ -10,8 +10,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.wrapper,
-.portfolio {
+.wrapper {
    width: 100vw;
    height: 100vh;
    background-color: #2a315b; 
@@ -129,6 +128,13 @@ span {
     margin-bottom: 1em;
 }
 
+.portfolio,
+.contact-section {
+    width: 100vw;
+    background-color:  #2a315b;
+    color: #ffff;
+}
+
 .portfolio-headings {
     width: 100vw;
     padding: 5em;
@@ -148,6 +154,8 @@ span {
 
 .card {
     width: 300px;
+    height: 320px;
+    background-color: rgb(48, 37, 105);
 }
 
 .card__img {
@@ -188,6 +196,7 @@ span {
 .card .projects-details a {
     text-decoration: none;
     color:  #2a315b;
+    text-transform: uppercase;
 }
 
 .proyect-details-content {
@@ -195,4 +204,15 @@ span {
     width: 100%;
     justify-content: center;
     margin-top: 1em;
+}
+
+.container-contac {
+    padding: 3em;
+    margin: 0 auto;
+}
+
+.container-contac img {
+    width: 750px;
+    height: 700px;
+    bottom: 0px;
 }
