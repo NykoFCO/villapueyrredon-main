@@ -1,5 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
+<script>
+
+    // alert("Arrancamos")
+
+    function hacer_la_cosa(){
+        alert("gracias por su mensaje!!!!");
+    }
+
+</script>
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,9 +26,9 @@
                 </div>
                 <ul class="menu">
                     <li><a class="activo" href="#">Home</a></li>
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#sobre_me">About Me</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </nav>
         </header>
@@ -34,7 +43,7 @@
             <img src="img/Nico.png" alt="Foto de Nicolas Sanchez">
         </main>
     </div>
-
+     <a id="sobre_me"/a>
     <div class="about">
         <img src="./img/Nicoperfil1.png" width="400px" alt="Nicolas Sanchez">
     
@@ -46,7 +55,7 @@
         <button class="download-cv">Lee más</button>
         </div>
     </div>
-
+    <a id="portfolio"/a>
     <div class="portfolio">
         <div class="portfolio-headings">
             <h2>Mi Portfolio</h2>  
@@ -75,7 +84,7 @@
             </div>
         </div>
     </div>
-
+   <a id="contacto"/a>
     <div class="contact-section">
         <div class="contact-heading">
             <h2>Contáctame</h2>
@@ -88,11 +97,17 @@
                     <input type="text" placeholder="Name" class="input">
                     <input type="email" placeholder="Email" class="input">
                     <textarea name="message" placeholder="Escribe tu mensaje acá..."></textarea>
-                    <button type="submit" class="btn-submit">Enviar</button>  
+                    <button type="submit" class="btn-submit"  onclick="hacer_la_cosa()">Enviar</button>  
                 </form>
             </div>    
         </div>
     </div>
+
+    <button type="button" onclick="alert(document.getElementById('demo').innerHTML); document.getElementById('demo').innerHTML = 'anduvo'">tocar ahora</button>
+
+    <button type="button" onclick="alert(1+1)">tocar botón</button>
+
+    <p id="demo">rodo</p>
 
     <footer class="footer">
         <div class="footer-content">
